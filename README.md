@@ -43,6 +43,7 @@ If you would like to skip Cloudfront cache invalidation, simply run the `aws s3 
 - [ ] Update individual game tables to showcase their total, cumulative score 
       similar to how it appears on the main table
 - [ ] Better and more refined search bar
+- [ ] Finish adding genres for all the games on the list
 - [ ] Add other lists and formulas to correspond to them, including:
   - [ ] Game of the Decade lists
   - [ ] Greatest Game on X Console/PC
