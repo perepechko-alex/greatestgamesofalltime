@@ -31,7 +31,7 @@ export default function Footer() {
   return (
     <ul className={classes.root}>
       <li style={display}>
-        <a href="https://gitlab.com/perepechko.alex" title="Gitlab">
+        <a href="https://gitlab.com/perepechko.alex/greatestgamesofalltime" title="Gitlab">
           <FaGitlab />
         </a>
       </li>

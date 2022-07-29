@@ -90,8 +90,8 @@ export default function About() {
           <p>
             Feel free to email me at <a href="mailto:greatestgamesofalltime@pm.me">greatestgamesofalltime@pm.me</a>, or
             reach out to me via DM/Tweet on <a href="https://twitter.com/alxexperience">Twitter</a>. Also feel free to
-            leave an issue or request on the <a href="https://gitlab.com/perepechko.alex/acclaimedgames">Gitlab repo</a>
-            !
+            leave an issue or request on the{" "}
+            <a href="https://gitlab.com/perepechko.alex/greatestgamesofalltime">Gitlab repo</a>!
           </p>
         </Container>
       </div>
