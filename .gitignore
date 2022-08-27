@@ -226,6 +226,10 @@ fabric.properties
 
 # Python
 .venv
+venv
+lib/__pycache__
+lib/api/__pycache__
+
 
 # Mac
 .DS_Store
@@ -233,3 +237,4 @@ fabric.properties
 # End of https://www.toptal.com/developers/gitignore/api/node,webstorm
 /.idea/dataSources.xml
 /.idea/sqldialects.xml
+
