@@ -4,13 +4,9 @@ import next from "next";
 const dev = process.env.NODE_ENV !== "production";
 const app = next({ dev });
 const handle = app.getRequestHandler();
-import router  from "./routes/routes.mjs";
 
 app.prepare().then(() => {
   const server = express();
-
-  server.use(router);
-
   server.get("*", (req, res) => {
     return handle(req, res);
   });
