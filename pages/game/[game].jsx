@@ -129,7 +129,7 @@ const getRank = (rank, gameWeight) => {
 };
 
 export const getStaticProps = async ({ params }) => {
-  const gameName = encodeURIComponent(params.game.replace(/'/g, "''"));
+  const gameName = encodeURIComponent(params.game);
   const gameRes = await fetch(`http://localhost:5000/api/${gameName}`);
   const gameData = await gameRes.json();
   const metadataRes = await fetch(`http://localhost:5000/api/results/${gameName}`);

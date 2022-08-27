@@ -6,7 +6,6 @@
   "scripts": {
     "start-server": "node server.mjs",
     "dev": "APP_ENV=dev next dev",
-    "install-sqlite": "npm install sqlite3 --build-from-source --sqlite=/opt/homebrew/opt/sqlite --save",
     "build": "next build ",
     "start": "next start",
     "lint": "next lint",
@@ -32,8 +31,7 @@
     "prop-types": "^15.7.2",
     "react": "^16.8.0",
     "react-dom": "^16.8.0",
-    "react-icons": "^4.4.0",
-    "sqlite3": "^5.0.8"
+    "react-icons": "^4.4.0"
   },
   "devDependencies": {
     "eslint": "^7.32.0",
