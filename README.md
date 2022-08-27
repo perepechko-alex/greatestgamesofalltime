@@ -15,7 +15,7 @@ information can be found on [greatestgamesofalltime.com](https://greatestgamesof
 
 ### Running/Deploying
 #### Dev
-1. To import any changes made to the CSV files, run `make run_import`
+1. To generate `data/out/ggoat.db` and/or import any changes made to the CSV files, run `make run_import`
 2. Run `make start_api` to start the Flask API.
 3. Run `make start_server_dev` to start the application. By default, it will run on `localhost:5000`
 
