@@ -1,8 +1,6 @@
 import sqlite3
 
-from flask import jsonify
-
-from flask import Flask
+from flask import Flask, jsonify
 from ..db import create_connection
 
 app = Flask(__name__)
