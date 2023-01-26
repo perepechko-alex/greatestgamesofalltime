@@ -111,7 +111,7 @@ export default function Game({ gameData, metadata: { rank: overallRank } }) {
 }
 
 export const getStaticPaths = async () => {
-  const res = await fetch(`http://localhost:5000/api/results`);
+  const res = await fetch(`http://127.0.0.1:5000/api/results`);
   const data = await res.json();
   const paths = data.map((game) => {
     return { params: { game: game.name } };
@@ -130,9 +130,9 @@ const getRank = (rank, gameWeight) => {
 
 export const getStaticProps = async ({ params }) => {
   const gameName = encodeURIComponent(params.game);
-  const gameRes = await fetch(`http://localhost:5000/api/${gameName}`);
+  const gameRes = await fetch(`http://127.0.0.1:5000/api/${gameName}`);
   const gameData = await gameRes.json();
-  const metadataRes = await fetch(`http://localhost:5000/api/results/${gameName}`);
+  const metadataRes = await fetch(`http://127.0.0.1:5000/api/results/${gameName}`);
   const metadata = await metadataRes.json();
   return {
     props: { gameData, metadata }, // will be passed to the page component as props

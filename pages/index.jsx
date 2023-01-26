@@ -18,6 +18,7 @@ import Footer from "../components/footer";
 import SearchBar from "material-ui-search-bar";
 import { EnhancedTableHead } from "../components/enhancedTableHead";
 import { stableSort, getComparator } from "../components/sorting";
+import Head from 'next/head';
 
 const useStyles = makeStyles({
   table: {
@@ -176,6 +177,12 @@ export default function DataTable({ data, appEnv }) {
   };
   return (
     <>
+      <div>
+        <Head>
+          <title>Greatest Games of All Time</title>
+          <meta property="og:title" content="Greatest Games of All Time" key="title" />
+        </Head>
+      </div>
       <HeaderNavigation />
       <br />
       <SearchBar
@@ -250,7 +257,7 @@ export default function DataTable({ data, appEnv }) {
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch(`http://localhost:5000/api/results`);
+  const res = await fetch(`http://127.0.0.1:5000/api/results`);
   const data = await res.json();
   const appEnv = process.env.APP_ENV;
   return {

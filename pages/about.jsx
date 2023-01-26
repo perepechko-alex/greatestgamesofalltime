@@ -74,7 +74,7 @@ export default function About() {
             <i>Resident Evil 2</i> remakes), they would be counted as their own games.
           </p>
           <p>
-            For specific games such as the <i>Street Fighter II</i> and <i>Tetris</i> series fo games, this was more
+            For specific games such as the <i>Street Fighter II</i> and <i>Tetris</i> series of games, this was more
             difficult and came down to a judgement call. The former series were counted as one game (
             <i>Super Street Fighter II/Hyper Fighting/Turbo</i>) while Tetris was generally climbed into the main game,
             with the exception of certain unique instances that were called out (<i>Tetris Effect</i>,{" "}
@@ -88,8 +88,8 @@ export default function About() {
           <br />
           <h2>I noticed an issue in your list, have questions, or want to leave a comment. How can I reach out?</h2>
           <p>
-            Feel free to email me at <a href="mailto:greatestgamesofalltime@pm.me">greatestgamesofalltime@pm.me</a>, or
-            reach out to me via DM/Tweet on <a href="https://twitter.com/alxexperience">Twitter</a>. Also feel free to
+            Feel free to email me at <a href="mailto:greatestgamesofalltime@outlook.com">greatestgamesofalltime@outlook.com</a>, or
+            reach out to me via DM/Tweet on <a href="https://mstdn.gamercast.net/@alxexperience">Mastodon</a>. Also feel free to
             leave an issue or request on the{" "}
             <a href="https://gitlab.com/perepechko.alex/greatestgamesofalltime">Gitlab repo</a>!
           </p>
