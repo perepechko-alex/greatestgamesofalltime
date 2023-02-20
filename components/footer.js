@@ -1,6 +1,6 @@
 import * as React from "react";
 import { makeStyles } from "@material-ui/core/styles";
-import { FaGitlab, FaTwitter } from "react-icons/fa";
+import { FaGitlab, FaMastodon } from "react-icons/fa";
 
 const useStyles = makeStyles({
   root: {
@@ -36,8 +36,8 @@ export default function Footer() {
         </a>
       </li>
       <li style={display}>
-        <a href="https://twitter.com/alxexperience" title="Twitter">
-          <FaTwitter />
+        <a href="https://mstdn.social/@alxexperience" title="Mastodon">
+          <FaMastodon />
         </a>
       </li>
     </ul>
