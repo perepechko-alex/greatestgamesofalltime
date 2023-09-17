@@ -76,10 +76,10 @@ export default function About() {
           <p>
             For specific games such as the <i>Street Fighter II</i> and <i>Tetris</i> series of games, this was more
             difficult and came down to a judgement call. The former series were counted as one game (
-            <i>Super Street Fighter II/Hyper Fighting/Turbo</i>) while Tetris was generally climbed into the main game,
-            with the exception of certain unique instances that were called out (<i>Tetris Effect</i>,{" "}
-            <i>Tetris Attack</i>). At the end of the day these were decisions made to consolidate a list to what I
-            believe was the best representation of certain games.
+            <i>Super Street Fighter II/Hyper Fighting/Turbo</i>) while Tetris games were generally grouped together as
+            simply <i>Tetris</i>, with the exception of certain unique instances that were called out (
+            <i>Tetris Effect</i>,{" "}<i>Tetris Attack</i>). At the end of the day these were decisions made to
+            consolidate a list to what I believe was the best representation of certain games.
           </p>
           <p>
             Where applicable, a note within the SQLite database has been included to denote what specific version of a
@@ -89,7 +89,7 @@ export default function About() {
           <h2>I noticed an issue in your list, have questions, or want to leave a comment. How can I reach out?</h2>
           <p>
             Feel free to email me at <a href="mailto:greatestgamesofalltime@outlook.com">greatestgamesofalltime@outlook.com</a>, or
-            reach out to me via DM/Tweet on <a href="https://mstdn.gamercast.net/@alxexperience">Mastodon</a>. Also feel free to
+            reach out to me via DM/Tweet on <a href="https://mstdn.social/@alxexperience">Mastodon</a>. Also feel free to
             leave an issue or request on the{" "}
             <a href="https://gitlab.com/perepechko.alex/greatestgamesofalltime">Gitlab repo</a>!
           </p>

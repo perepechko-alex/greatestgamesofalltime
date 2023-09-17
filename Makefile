@@ -11,16 +11,16 @@ start_api:
 	flask --app ./lib/api/routes.py run
 
 start_server_dev:
-	APP_ENV=dev node server.mjs
+	APP_ENV=dev NODE_OPTIONS=--openssl-legacy-provider node server.mjs
 
 start_server_deploy:
-	APP_ENV=deploy node server.mjs
+	APP_ENV=deploy NODE_OPTIONS=--openssl-legacy-provider node server.mjs
 
 export_static:
 	npm run clean && APP_ENV=deploy npm run build && npm run export-static
 
 deploy:
-	npm run clean && APP_ENV=deploy npm run build && npm run export-static && aws s3 cp out s3://${GGOAT_S3} --recursive \
+	npm run clean && APP_ENV=deploy NODE_OPTIONS=--openssl-legacy-provider npm run build && npm run export-static && aws s3 cp out s3://${GGOAT_S3} --recursive \
 	&& 	aws cloudfront create-invalidation --distribution-id ${CLOUDFRONT_DIST_ID} --paths "/*" > /dev/null
 
 clean:
