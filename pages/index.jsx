@@ -257,7 +257,7 @@ export default function DataTable({ data, appEnv }) {
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch(`http://127.0.0.1:5000/api/results`);
+  const res = await fetch(`http://127.0.0.1:8000/api/results`);
   const data = await res.json();
   const appEnv = process.env.APP_ENV;
   return {

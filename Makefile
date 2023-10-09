@@ -8,7 +8,7 @@ install_node_dependencies:
 	npm i --legacy-peer-deps
 
 start_api:
-	flask --app ./lib/api/routes.py run
+	python ggoat/manage.py runserver
 
 start_server_dev:
 	APP_ENV=dev NODE_OPTIONS=--openssl-legacy-provider node server.mjs
