@@ -238,3 +238,30 @@ lib/api/__pycache__
 /.idea/dataSources.xml
 /.idea/sqldialects.xml
 
+# Ignore bundler config.
+rails-api/.bundle
+
+# Ignore all environment files (except templates).
+rails-api/.env*
+!rails-api/.env*.erb
+
+# Ignore all logfiles and tempfiles.
+rails-api/log/*
+rails-api/tmp/*
+!rails-api/log/.keep
+!rails-api/tmp/.keep
+
+# Ignore pidfiles, but keep the directory.
+rails-api/tmp/pids/*
+!rails-api/tmp/pids/
+!rails-api/tmp/pids/.keep
+
+# Ignore storage (uploaded files in development and any SQLite databases).
+rails-api/storage/*
+!rails-api/storage/.keep
+rails-api/tmp/storage/*
+!rails-api/tmp/storage/
+!rails-api/tmp/storage/.keep
+
+# Ignore master key for decrypting credentials and more.
+rails-api/config/master.key
